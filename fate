@@ -109,12 +109,12 @@ UseBM = true                                   --如果你想使用boss mod躲�
 EnableChangeInstance = true                    --当没有fate时是否切换副本区域 (只作用于 DT)
     WaitIfBonusBuff = true                         --如果你有"危命奖励提高"buff，则不切换副本区
 ShouldExchangeBicolorVouchers = true           --是否自动兑换双色宝石收据
-    VoucherTown = "双色宝石的收据"           -- 旧萨雷安填写 "双色宝石的收据" 九号解决方案则填写 "图拉尔双色宝石的收据"
+    VoucherTown = "图拉尔双色宝石的收据"           -- 旧萨雷安填写 "双色宝石的收据" 九号解决方案则填写 "图拉尔双色宝石的收据"
 SelfRepair = false                              --自己修理选项，如果设置为 false, 就去 海都找修理工
     RepairAmount = 20                              --设置一个阈值，低于此阈值将会自动修理装备 (如果不需要自动修理，请将其设置为0)
     ShouldAutoBuyDarkMatter = true                --如果你没有8级暗物质，则会自动从利姆萨的商人购买一组99个
 ShouldExtractMateria = true                    --是否要自动精炼魔晶石？
-Retainers = true                               --是否自动收雇员
+Retainers = false                               --是否自动收雇员
 ShouldGrandCompanyTurnIn = false                --是否自动交军票 (需要 Deliveroo 插件)
     InventorySlotsLeft = 5                         --在执行上交前需要多少空余的背包空间
 
