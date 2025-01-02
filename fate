@@ -593,9 +593,7 @@ FatesData = {
             { aetheryteName="奥密克戎基地", x=-489, y=437, z=333 },
         },
         fatesList= {
-            collectionsFates= {
-                { fateName="侵略兵器召回指令：扩建通信设备", npcName="N-6205" }
-            },
+            collectionsFates= {},
             otherNpcFates= {
                 { fateName="荣光之翼——阿尔·艾因", npcName="阿尔·艾因的朋友" }, --22 boss
                 { fateName="侵略兵器召回指令：保护N-6205", npcName="N-6205"}, --24 防御
@@ -605,7 +603,9 @@ FatesData = {
             specialFates = {
                 "	侵略兵器召回指令：破坏侵略兵器希" -- 希（特殊FATE）
             },
-            blacklistedFates= {}
+            blacklistedFates= {
+                fateName="侵略兵器召回指令：扩建通信设备"
+            }
         }
     },
     {
