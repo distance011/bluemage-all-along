@@ -95,7 +95,7 @@ CompletionToJoinBossFate = 0                   --设置一个数字，如果fate
     CompletionToJoinSpecialBossFates = 20          --For the Special Fates like the Serpentlord Seethes or Mascot Murder
     ClassForBossFates = ""                         --如果你想用特定的职业单挑boss，就在""内设置为三个字母的职业缩写（国际服缩写）
                                                    --例如骑士为 Ex: "PLD"
-JoinCollectionsFates = true                   --如果你不想打连续类型的fate则设置为 fates
+JoinCollectionsFates = false                   --如果你不想打连续类型的fate则设置为 fates
 RSRAoeType = "Cleave"                            --自动循环插件选项: Cleave/Full/Off
 RSRAutoType = "LowHP"                          --自动循环插件选项: LowHP/HighHP/Big/Small/HighMaxHP/LowMaxHP/Nearest/Farthest.
                                     
