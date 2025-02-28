@@ -1160,7 +1160,7 @@ function TeleportTo(aetheryteName)
 end
 
 function ChangeInstance()
-    if SuccessiveInstanceChanges >= 3 then
+    if SuccessiveInstanceChanges >= 2 then
         yield("/wait 1")
         SuccessiveInstanceChanges = 0
         return
